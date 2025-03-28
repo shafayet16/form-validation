@@ -9,12 +9,19 @@
     <div id="container">
       <div id="sidebar">
         <div id="semi-transparent">
-          <img src="" alt="" />
+          <img src="logo.png" alt="" id="img" />
         </div>
       </div>
       <div id="rightbar">
+        <h1>
+          Welcome to this site stranger, fill in the form to let us know your
+          identity and call you a friend<3
+        </h1>
         <form action="index.js" method="post">
-          <div id="input"></div>
+          <div id="input">
+            <label for="username">Name</label>
+            <input type="text" id="username" name="username" required />
+          </div>
           <button id="create-account"></button>
           <p>Already have an account?</p>
           <a href="">sign in</a>

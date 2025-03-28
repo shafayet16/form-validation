@@ -21,14 +21,25 @@ body {
 }
 #rightbar {
   flex-grow: 2;
-  background-color: #000000;
-  border: 1px solid rgba(0, 119, 255, 0.308);
+  background-color: #101c36;
 }
 #semi-transparent {
   width: 100%;
-  height: 20%;
+  height: 40%;
   position: relative;
-  top: 24rem;
-  background-color: azure;
-  opacity: 0.5;
+  top: 32%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e6dede;
+  border-right: none;
+}
+form {
+  position: relative;
+  top: 30%;
+  height: 40%;
+  background-color: #9eb6ca;
+  border: 1px solid rgb(255, 255, 255);
+  border-left: 1px solid black;
 }
