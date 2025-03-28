@@ -22,6 +22,7 @@ body {
 #rightbar {
   flex-grow: 2;
   background-color: #000000;
+  border: 1px solid rgba(0, 119, 255, 0.308);
 }
 #semi-transparent {
   width: 100%;
