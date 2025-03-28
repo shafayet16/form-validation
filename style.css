@@ -99,3 +99,8 @@ input.highlighted {
 body {
   background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
 }
+
+input::placeholder {
+  color: #f0b8b7;
+  opacity: 1;
+}
